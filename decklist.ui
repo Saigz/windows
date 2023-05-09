@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>decklist</class>
+ <widget class="QMainWindow" name="decklist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>716</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(248, 224, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="exit_button">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>430</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat SemiBold</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 2px solid rgb(104, 104, 104);
+	border-radius: 8px;
+	padding-left: auto;
+    padding-right: auto;
+	color: rgb(255, 255, 255);
+	background-color: rgb(27, 29, 35);
+	font: 600 12pt &quot;Montserrat SemiBold&quot;;
+}
+QPushButton:hover {
+	border: 2px solid rgb(85, 170, 255);
+	background-color: rgb(43, 45, 56);
+}
+QPushButton:focus {
+	border: 2px solid rgb(48, 50, 62);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>571</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QListWidget" name="listWidget">
+       <property name="styleSheet">
+        <string notr="true">font: 600 12pt &quot;Montserrat SemiBold&quot;;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>testt</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Montserrat SemiBold</family>
+          <pointsize>11</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="open_button">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	border: 2px solid rgb(104, 104, 104);
+	border-radius: 8px;
+	padding-left: auto;
+    padding-right: auto;
+	color: rgb(255, 255, 255);
+	background-color: rgb(27, 29, 35);
+	font: 600 12pt &quot;Montserrat SemiBold&quot;;
+}
+QPushButton:hover {
+	border: 2px solid rgb(85, 170, 255);
+	background-color: rgb(43, 45, 56);
+}
+QPushButton:focus {
+	border: 2px solid rgb(48, 50, 62);
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Open</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="create_button">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	border: 2px solid rgb(104, 104, 104);
+	border-radius: 8px;
+	padding-left: auto;
+    padding-right: auto;
+	color: rgb(255, 255, 255);
+	background-color: rgb(27, 29, 35);
+	font: 600 12pt &quot;Montserrat SemiBold&quot;;
+}
+QPushButton:hover {
+	border: 2px solid rgb(85, 170, 255);
+	background-color: rgb(43, 45, 56);
+}
+QPushButton:focus {
+	border: 2px solid rgb(48, 50, 62);
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Create</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="delete_button">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	border: 2px solid rgb(104, 104, 104);
+	border-radius: 8px;
+	padding-left: auto;
+    padding-right: auto;
+	color: rgb(255, 255, 255);
+	background-color: rgb(27, 29, 35);
+	font: 600 12pt &quot;Montserrat SemiBold&quot;;
+}
+QPushButton:hover {
+	border: 2px solid rgb(85, 170, 255);
+	background-color: rgb(43, 45, 56);
+}
+QPushButton:focus {
+	border: 2px solid rgb(48, 50, 62);
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Delete</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
